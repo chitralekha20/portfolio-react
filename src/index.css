@@ -11,6 +11,14 @@
 
 body {
     background-color: black;
+    overflow: auto; /* Allows scrolling */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* For Chrome, Safari, and other WebKit browsers */
+body::-webkit-scrollbar {
+    display: none;
 }
 
 html {
