@@ -74,7 +74,20 @@ padding: 40px 100px;
 }
 
 @media screen and (max-width:500px) {
-    
+    .imgone > img{
+        width: 200px;
+        height: 300px;
+    }
+
+    .Secondone {
+        text-align: center;
+    }
+
+    .cv-phone {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
 }
 
 

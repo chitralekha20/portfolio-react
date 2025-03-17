@@ -8,14 +8,14 @@ import Sidebar from './Components/Sidebar'
 
 const App = () => {
   return (
-    <div>
+    <>
       <Sidebar/>
       <Profile/>
       <Skill/>
       <Experience/>
       <Footer/>
       <Mail/>
-    </div>
+    </>
   )
 }
 

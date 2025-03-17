@@ -15,3 +15,9 @@
     color: #e5e7eb;
 }
 
+@media screen and (max-width:500px){
+ .experience-post {
+    font-size: 2rem;
+ }   
+}
+

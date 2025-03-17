@@ -76,3 +76,11 @@
     align-items: center;
     gap: 0.8rem;
 }
+
+@media screen and (max-width:500px){
+  .first-stack-container {
+    display: grid;
+    grid-template-columns: none;
+    gap: 25px;
+}
+}

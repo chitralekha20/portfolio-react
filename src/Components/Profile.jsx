@@ -17,7 +17,7 @@ const Profile = () => {
           with a focus on building responsive and user-friendly web applications.
           A quick learner, eager to apply problem-solving skills and stay updated with the latest web development trends.
         </p>
-        <a href={resume} target='_blank'>
+        <a href={resume} target='_blank' className='cv-phone'>
         <button className='Thirdone'>
           Download My CV From here
         </button>
