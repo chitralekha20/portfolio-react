@@ -1,7 +1,7 @@
 import React from "react";
 import "./Profile.css";
 import girlimg from "../assets/Chitralekha.png";
-import resume from "../assets/ChitralekhaCV.pdf";
+import resume from "../assets/Chitralekha_Mahanta_Resume.pdf";
 import { motion } from "framer-motion";
 
 const Profile = () => {
