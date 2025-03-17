@@ -22,6 +22,7 @@ import {
   FaRegSnowflake,
 } from "react-icons/fa6";
 
+
 const Skill = () => {
   return (
     <section className="stack-container" id="skills">

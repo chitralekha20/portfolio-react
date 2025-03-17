@@ -7,8 +7,8 @@ const Footer = () => {
   return (
     <footer className="footer-container">
       <p className="footer-subtext">Have a project in mind?</p>
-      <a className="footer-mail" href="mailto:chitralekhamahanta678@gmail.com">
-        chitralekhamahanta678@gmail.com
+      <a className="footer-mail" href="mailto:chitralekha1299@gmail.com">
+      chitralekha1299@gmail.com
       </a>
       <p className="footer-subtext" style={{marginTop:"1rem"}}>Copyright @{year}</p>
     </footer>
