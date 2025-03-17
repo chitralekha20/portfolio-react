@@ -1,0 +1,80 @@
+.Firstone {
+    color:#00f050;
+    margin-bottom: -24px;
+    font-weight: 500;
+    font-size: 3.75rem;
+    font-family: "Anton", sans-serif; 
+}
+.letter{
+    color: #e5e7eb;
+    margin: 0;
+    padding-left: 14px;
+    font-weight: 500;
+    font-size: 3.75rem;
+    font-family: "Anton", sans-serif; 
+}
+
+.Secondone{
+  width: 50%;
+  font-size: 1.125rem;
+  text-wrap: wrap;
+  margin-top: 10px;
+  color: #e5e7eb;
+  line-height: 1.75rem;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.Thirdone{
+background-color: #00f050;
+border-width: 0;
+border-radius: 4px;
+padding: 15px;
+margin-top: 24px;
+cursor: pointer;
+font-size: 1.125rem;
+font-weight: 500;
+font-family: "Anton", sans-serif; 
+}
+
+
+.imgone {
+    /* flex: 1; */
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+.imgone > img{
+    width: 300px;
+    height: 400px;
+}
+
+.profileContainer{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 40px 100px;
+
+}
+
+.profileLeft {
+    /* flex: 1; */
+}
+
+@media screen and (max-width:800px) {
+    .profileContainer {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        gap: 30px;
+    }
+
+    .Secondone {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    
+}
+
+

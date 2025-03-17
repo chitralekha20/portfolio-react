@@ -1,0 +1,15 @@
+.mail-style {
+  position: fixed;
+  bottom: 30%;
+  left: -105px;
+  z-index: 999;
+  transform: rotate(90deg);
+}
+
+.mail-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: #e5e7eb;
+  font-family: "Roboto Flex", sans-serif;
+  font-size: 1rem;
+}

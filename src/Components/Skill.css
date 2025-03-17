@@ -1,0 +1,78 @@
+.skillIcon {
+  color: blueviolet;
+  font-size: 2rem;
+
+}
+
+.skillName {
+    font-size: 1.5rem;
+    color: #e5e7eb;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.stack-heading {
+  font-size: 1.25rem;
+  color: #e5e7eb;
+  text-transform: uppercase;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+.stack-container {
+  padding: 40px 100px;
+}
+
+.stact-heading-container {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 2.5rem;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.stack-icon {
+  color: #e5e7eb;
+  font-size: 1.2rem;
+  animation: spin 7s linear infinite;
+  transition: transform 7s ease-in-out;
+}
+
+.first-stack-container {
+    display: grid;
+    grid-template-columns: repeat(12,minmax(0,1fr));
+    gap: 25px;
+}
+
+.first-stack-heading {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #e5e7eb;
+    font-family: "Anton", sans-serif; 
+}
+
+.first-stack-left {
+    grid-column-start: span 5;
+    grid-column-end: span 5;
+}
+
+.first-stack-right {
+    grid-column-start: span 7;
+    grid-column-end: span 7;
+    row-gap: 2.25rem;
+    column-gap: 2.75rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.first-stack-single {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}

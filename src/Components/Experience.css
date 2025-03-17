@@ -1,0 +1,17 @@
+.experience-container {
+    padding: 40px 100px;
+    margin-top: 2rem;
+}
+
+.experience-company {
+    font-size: 1.25rem;
+    color: #e5e7eb;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.experience-post {
+    font-size: 3rem;
+    font-family: "Anton", sans-serif; 
+    color: #e5e7eb;
+}
+
