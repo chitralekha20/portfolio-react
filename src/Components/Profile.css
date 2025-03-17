@@ -79,14 +79,27 @@ padding: 40px 100px;
         height: 300px;
     }
 
+    .Firstone {
+        font-size: 3rem;
+    }
+
+    .letter {
+        font-size: 3rem;
+    }
+
     .Secondone {
         text-align: center;
+        font-size: 1rem;
     }
 
     .cv-phone {
         display: flex;
         justify-content: center;
         text-decoration: none;
+    }
+
+    .Thirdone {
+        font-size: 1rem;
     }
 }
 

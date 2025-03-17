@@ -56,7 +56,7 @@ const Skill = () => {
           </div>
         </div>
       </div>
-      <div className="first-stack-container" style={{marginTop:"4rem"}}>
+      <div className="first-stack-container" style={{ marginTop: "4rem" }}>
         {/* backend */}
         <div className="first-stack-left">
           <h1 className="first-stack-heading">BACKEND</h1>
@@ -72,44 +72,44 @@ const Skill = () => {
           </div>
         </div>
       </div>
-      <div className="first-stack-container" style={{marginTop:"4rem"}}>
+      <div className="first-stack-container" style={{ marginTop: "4rem" }}>
         {/* TOOLS */}
         <div className="first-stack-left">
           <h1 className="first-stack-heading">TOOLs</h1>
         </div>
         <div className="first-stack-right">
-        <div className="first-stack-single">
-          <FaGitAlt className="skillIcon"/>
-          <span className="skillName">Git</span>
-        </div>
-        <div className="first-stack-single">
-          <PiMicrosoftExcelLogoFill className="skillIcon"/>
-          <span className="skillName">Excel</span>
-        </div>
-        <div className="first-stack-single">
-          <SiCanva className="skillIcon"/>
-          <span className="skillName">Canva</span>
-        </div>
-        <div className="first-stack-single">
-          <SiAdobephotoshop className="skillIcon"/>
-          <span className="skillName">AdobePhotoshop</span>
-        </div>
-        <div className="first-stack-single">
-          <SiAdobeillustrator className="skillIcon"/>
-          <span className="skillName">AdobeIllustrator</span>
-        </div>
-        <div className="first-stack-single">
-          <FaMagnifyingGlass className="skillIcon"/>
-          <span className="skillName">SEO</span>
-        </div>
-        <div className="first-stack-single">
-          <FaMeta className="skillIcon"/>
-          <span className="skillName">Facebook Meta</span>
-        </div>
-        <div className="first-stack-single">
-          <FaMeta className="skillIcon"/>
-          <span className="skillName">Facebook Ad Manager</span>
-        </div>
+          <div className="first-stack-single">
+            <FaGitAlt className="skillIcon" />
+            <span className="skillName">Git</span>
+          </div>
+          <div className="first-stack-single">
+            <PiMicrosoftExcelLogoFill className="skillIcon" />
+            <span className="skillName">Excel</span>
+          </div>
+          <div className="first-stack-single">
+            <SiCanva className="skillIcon" />
+            <span className="skillName">Canva</span>
+          </div>
+          <div className="first-stack-single">
+            <SiAdobephotoshop className="skillIcon" />
+            <span className="skillName">AdobePhotoshop</span>
+          </div>
+          <div className="first-stack-single">
+            <SiAdobeillustrator className="skillIcon" />
+            <span className="skillName">AdobeIllustrator</span>
+          </div>
+          <div className="first-stack-single">
+            <FaMagnifyingGlass className="skillIcon" />
+            <span className="skillName">SEO</span>
+          </div>
+          <div className="first-stack-single">
+            <FaMeta className="skillIcon" />
+            <span className="skillName">Facebook Meta</span>
+          </div>
+          <div className="first-stack-single">
+            <FaMeta className="skillIcon" />
+            <span className="skillName">Facebook Ad Manager</span>
+          </div>
         </div>
       </div>
     </section>

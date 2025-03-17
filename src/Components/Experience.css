@@ -17,7 +17,11 @@
 
 @media screen and (max-width:500px){
  .experience-post {
-    font-size: 2rem;
+    font-size: 1.8rem;
  }   
+
+ .experience-company {
+    font-size: 1.1rem;
+ }
 }
 

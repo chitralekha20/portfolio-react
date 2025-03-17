@@ -59,6 +59,15 @@
 
 @media screen and (max-width:500px) {
   .sidebar-menu{
-    width: 300px;
+    width: 250px;
+    padding: 10px;
+  }
+
+  .sidebar-boxes {
+    gap: 1rem;
+  }
+
+  .social-link-side{
+    font-size: 1rem;
   }
 }

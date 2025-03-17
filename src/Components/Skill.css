@@ -1,13 +1,12 @@
 .skillIcon {
   color: blueviolet;
   font-size: 2rem;
-
 }
 
 .skillName {
-    font-size: 1.5rem;
-    color: #e5e7eb;
-    font-family: "Roboto Flex", sans-serif;
+  font-size: 1.5rem;
+  color: #e5e7eb;
+  font-family: "Roboto Flex", sans-serif;
 }
 
 .stack-heading {
@@ -45,42 +44,58 @@
 }
 
 .first-stack-container {
-    display: grid;
-    grid-template-columns: repeat(12,minmax(0,1fr));
-    gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 25px;
 }
 
 .first-stack-heading {
-    text-transform: uppercase;
-    font-size: 2rem;
-    color: #e5e7eb;
-    font-family: "Anton", sans-serif; 
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #e5e7eb;
+  font-family: "Anton", sans-serif;
 }
 
 .first-stack-left {
-    grid-column-start: span 5;
-    grid-column-end: span 5;
+  grid-column-start: span 5;
+  grid-column-end: span 5;
 }
 
 .first-stack-right {
-    grid-column-start: span 7;
-    grid-column-end: span 7;
-    row-gap: 2.25rem;
-    column-gap: 2.75rem;
-    display: flex;
-    flex-wrap: wrap;
+  grid-column-start: span 7;
+  grid-column-end: span 7;
+  row-gap: 2.25rem;
+  column-gap: 2.75rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .first-stack-single {
-    display: flex;
-    align-items: center;
-    gap: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width: 500px) {
   .first-stack-container {
     display: grid;
     grid-template-columns: none;
     gap: 25px;
-}
+  }
+
+  .stack-heading {
+    font-size: 1rem;
+  }
+
+  .first-stack-heading {
+    font-size: 1.5rem;
+  }
+
+  .skillIcon {
+    font-size: 1.5rem;
+  }
+
+  .skillName {
+    font-size: 1.3rem;
+  }
 }
