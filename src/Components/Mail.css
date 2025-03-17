@@ -1,7 +1,7 @@
 .mail-style {
   position: fixed;
   bottom: 30%;
-  left: -105px;
+  left: -83px;
   z-index: 999;
   transform: rotate(90deg);
 }

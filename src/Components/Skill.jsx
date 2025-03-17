@@ -21,11 +21,19 @@ import {
   FaReact,
   FaRegSnowflake,
 } from "react-icons/fa6";
-
+import { motion } from "framer-motion";
 
 const Skill = () => {
   return (
-    <section className="stack-container" id="skills">
+    <motion.section
+      className="stack-container"
+      id="skills"
+      initial={{ opacity: 0, y: 50 }} // Start hidden and slide down
+      whileInView={{ opacity: 1, y: 0 }} // Fade in and slide up
+      exit={{ opacity: 0, y: 50 }} // Fade out and slide down
+      transition={{ duration: 0.8 }} // Smooth transition
+      viewport={{ amount: 0.5 }}
+    >
       <div className="stact-heading-container">
         <FaRegSnowflake className="stack-icon" />
         <h4 className="stack-heading">My Stack</h4>
@@ -113,7 +121,7 @@ const Skill = () => {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 
